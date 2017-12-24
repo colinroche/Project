@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -26,7 +26,6 @@ namespace RocheColinProject
         // Variables
         int plyTrn;
 
-
         // Initialized Variables
         int ply1Score = 0;
         int ply2Score = 0;
@@ -36,6 +35,7 @@ namespace RocheColinProject
         {
             this.InitializeComponent();
         }
+
         // Player 1 - first turn, is 'X's
         // Player 2 - second turn, is 'O's
         private void Click1(object sender, RoutedEventArgs e)
@@ -84,8 +84,8 @@ namespace RocheColinProject
             }
             if (ply1Score == maxScore || ply2Score == maxScore)
             {
-                Square_1.Content = "";
-                Square_1.IsEnabled = true;
+                Square_2.Content = "";
+                Square_2.IsEnabled = true;
             }
         }
 
@@ -110,8 +110,8 @@ namespace RocheColinProject
             }
             if (ply1Score == maxScore || ply2Score == maxScore)
             {
-                Square_1.Content = "";
-                Square_1.IsEnabled = true;
+                Square_3.Content = "";
+                Square_3.IsEnabled = true;
             }
         }
 
@@ -136,8 +136,8 @@ namespace RocheColinProject
             }
             if (ply1Score == maxScore || ply2Score == maxScore)
             {
-                Square_1.Content = "";
-                Square_1.IsEnabled = true;
+                Square_4.Content = "";
+                Square_4.IsEnabled = true;
             }
         }
 
@@ -162,8 +162,8 @@ namespace RocheColinProject
             }
             if (ply1Score == maxScore || ply2Score == maxScore)
             {
-                Square_1.Content = "";
-                Square_1.IsEnabled = true;
+                Square_5.Content = "";
+                Square_5.IsEnabled = true;
             }
         }
 
@@ -188,8 +188,8 @@ namespace RocheColinProject
             }
             if (ply1Score == maxScore || ply2Score == maxScore)
             {
-                Square_1.Content = "";
-                Square_1.IsEnabled = true;
+                Square_6.Content = "";
+                Square_6.IsEnabled = true;
             }
         }
 
@@ -214,8 +214,8 @@ namespace RocheColinProject
             }
             if (ply1Score == maxScore || ply2Score == maxScore)
             {
-                Square_1.Content = "";
-                Square_1.IsEnabled = true;
+                Square_7.Content = "";
+                Square_7.IsEnabled = true;
             }
         }
 
@@ -240,8 +240,8 @@ namespace RocheColinProject
             }
             if (ply1Score == maxScore || ply2Score == maxScore)
             {
-                Square_1.Content = "";
-                Square_1.IsEnabled = true;
+                Square_8.Content = "";
+                Square_8.IsEnabled = true;
             }
         }
 
@@ -266,8 +266,8 @@ namespace RocheColinProject
             }
             if (ply1Score == maxScore || ply2Score == maxScore)
             {
-                Square_1.Content = "";
-                Square_1.IsEnabled = true;
+                Square_9.Content = "";
+                Square_9.IsEnabled = true;
             }
         }
 
